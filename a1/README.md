@@ -1,4 +1,5 @@
 CS158A Assignment 1 - Variable Length Message
+----------------------------------------------
 
 myvlclient.py is the client program:
 - Holds a default server name and server port (server name/IP can be changed if need)
@@ -20,4 +21,5 @@ HOW TO RUN THE PROGRAM:
 3. Type in any sentence.
 
 ![Server connection](https://github.com/user-attachments/assets/5077306e-a9a2-45a0-a21a-059307d661b4)
+
 ![Client connection](https://github.com/user-attachments/assets/e7490c4b-f4d2-42e8-a39f-e174db3881f5)
