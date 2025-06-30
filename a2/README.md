@@ -28,3 +28,5 @@ NOTES:
 - Server must be running before clients can connect.
 - Only other clients will receive your messages (you won’t see your own).
 - All communication uses a 1024-byte buffer and TCP, as required by the assignment.
+
+![image](https://github.com/user-attachments/assets/1aa33394-932e-4e7b-9dbe-0bee238bb278)
