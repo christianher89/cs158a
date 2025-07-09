@@ -13,22 +13,16 @@ Logs all received, sent, and ignored messages to log.txt
 
 HOW TO RUN THE PROGRAM:
 
-Create three separate directories (node1, node2, node3)
-Copy myleprocess.py to each directory
-Create config.txt in each directory:
+1. Create three separate directories (node1, node2, node3)
+2. Copy myleprocess.py to each directory
+3. Create config.txt in each directory:
 
 Node1: 127.0.0.1,5001 and 127.0.0.1,5002
-Node2: 127.0.0.1,5002 and 127.0.0.1,5003
-Node3: 127.0.0.1,5003 and 127.0.0.1,5001
 
+Node2: 127.0.0.1,5002 and 127.0.0.1,5003
+
+Node3: 127.0.0.1,5003 and 127.0.0.1,5001
 
 Run all three nodes simultaneously in separate terminals
 Check log.txt files to see the algorithm execution
 
-NOTES:
-
-All nodes must be started quickly to establish the ring topology
-The node with the highest UUID will be elected as leader
-Messages use JSON format with UUID and flag fields, ending with "\n"
-Algorithm terminates when all nodes know the leader's identity
-Connection errors during termination are normal and expected
