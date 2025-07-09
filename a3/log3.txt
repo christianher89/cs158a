@@ -1,0 +1,14 @@
+Node initialized with UUID: f3ea14ef-c35b-49d6-b7cd-056e26aaa211
+[SERVER] Listening on ('127.0.0.1', 5003)
+[SERVER] Connection accepted from ('127.0.0.1', 57662)
+Received: uuid=a82bcdb4-c79d-4f97-a139-67135a6a5a97, flag=0, less, 0
+Ignored: uuid=a82bcdb4-c79d-4f97-a139-67135a6a5a97, flag=0, smaller UUID
+[CLIENT] Connected to ('127.0.0.1', 5001)
+Sent: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=0
+Received: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=0, same, 0
+Leader is decided to f3ea14ef-c35b-49d6-b7cd-056e26aaa211
+Sent: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=1
+Received: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=1, same, 1
+Current leader ID: f3ea14ef-c35b-49d6-b7cd-056e26aaa211
+Leader announcement completed, terminating
+Final result: Leader is f3ea14ef-c35b-49d6-b7cd-056e26aaa211

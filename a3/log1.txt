@@ -1,0 +1,13 @@
+Node initialized with UUID: 6613234c-9b1f-4c78-beb5-f7d0438ce0c4
+[SERVER] Listening on ('127.0.0.1', 5001)
+[CLIENT] Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it, retrying...
+[CLIENT] Connected to ('127.0.0.1', 5002)
+Sent: uuid=6613234c-9b1f-4c78-beb5-f7d0438ce0c4, flag=0
+[SERVER] Connection accepted from ('127.0.0.1', 57664)
+Received: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=0, greater, 0
+Sent: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=0
+Received: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=1, greater, 0
+Leader is f3ea14ef-c35b-49d6-b7cd-056e26aaa211
+Sent: uuid=f3ea14ef-c35b-49d6-b7cd-056e26aaa211, flag=1
+[SERVER ERROR] [WinError 10054] An existing connection was forcibly closed by the remote host
+Final result: Leader is f3ea14ef-c35b-49d6-b7cd-056e26aaa211
