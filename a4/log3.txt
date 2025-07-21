@@ -1,0 +1,12 @@
+Node initialized with UUID: 53c76cfe-abb8-42ad-ba80-3dd84daca771
+Server listening at ('127.0.0.1', 5003)
+Accepted connection from ('127.0.0.1', 55276)
+Outgoing connection established.
+Received: uuid=db092c92-d471-41b1-8edd-ad66322f9dec, flag=0, greater, 0
+Forwarding larger UUID: db092c92-d471-41b1-8edd-ad66322f9dec
+Sent: uuid=db092c92-d471-41b1-8edd-ad66322f9dec, flag=0
+Received: uuid=db092c92-d471-41b1-8edd-ad66322f9dec, flag=1, greater, 0
+Leader is decided to db092c92-d471-41b1-8edd-ad66322f9dec
+Sent: uuid=db092c92-d471-41b1-8edd-ad66322f9dec, flag=1
+Leader is decided to db092c92-d471-41b1-8edd-ad66322f9dec
+Election complete. Exiting.
