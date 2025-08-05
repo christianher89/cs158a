@@ -17,20 +17,16 @@ In Terminal, run the program by typing:
 
 python secureget.py
 
-If the python file runs successfully, an html file named response.html will be created in the same directory. 
+If the python file runs successfully, an html file named response.html will be created in the same directory. This file can then be viewed in a web browser or in an IDE.
 
 EXAMPLE OUTPUT
-
+```
 python secureget.py
-
 [+] SSL connection established to www.google.com:443
-
-    Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
-    
-    SSL/TLS version: TLSv1.3
-    
+Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+SSL/TLS version: TLSv1.3
 [+] Successfully saved 54870 bytes to response.html
-
+```
 NOTES
 
  - Security: Uses modern SSL/TLS with secure default settings and proper certificate validation
