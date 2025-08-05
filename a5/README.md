@@ -4,11 +4,11 @@ CS158A Assignment 5 - Secure Socket
 This project implements a secure HTTPS client that establishes SSL/TLS connections and retrieves web content.
 The secureget.py is a standalone web client program:
 
-Uses raw TCP sockets with SSL/TLS encryption for secure communication
-Establishes connections using Python's ssl.create_default_context() for secure defaults
-Separates HTTP headers from body content and extracts pure HTML
-Provides detailed SSL connection information including cipher suite and TLS version
-Logs connection status and saves retrieved content to local file
+- Uses raw TCP sockets with SSL/TLS encryption for secure communication
+- Establishes connections using Python's ssl.create_default_context() for secure defaults
+- Separates HTTP headers from body content and extracts pure HTML
+- Provides detailed SSL connection information including cipher suite and TLS version
+- Logs connection status and saves retrieved content to local file
 
 HOW TO RUN THE PROGRAM
 
@@ -22,9 +22,13 @@ If the python file runs successfully, an html file named response.html will be c
 EXAMPLE OUTPUT
 
 python secureget.py
+
 [+] SSL connection established to www.google.com:443
+
     Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+    
     SSL/TLS version: TLSv1.3
+    
 [+] Successfully saved 54870 bytes to response.html
 
 NOTES
