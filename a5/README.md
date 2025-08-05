@@ -14,9 +14,9 @@ HOW TO RUN THE PROGRAM
 
 Setup: Place secureget.py in your working directory
 In Terminal, run the program by typing:
-
+```
 python secureget.py
-
+```
 If the python file runs successfully, an html file named response.html will be created in the same directory. This file can then be viewed in a web browser or in an IDE.
 
 EXAMPLE OUTPUT
